@@ -2,6 +2,6 @@
 function btnClick() {
   let number = document.getElementById('counter');
   let value = number.innerText;
-  alert(value);
+  alert(`${value}`);
   number.innerText = ++value;
 }
